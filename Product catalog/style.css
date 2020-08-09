@@ -1,0 +1,106 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1 {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.wrap {
+  width: 48%;
+}
+
+.wrap > * {
+  margin-bottom: 50px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  height: 33px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  color: inherit;
+  outline: none;
+}
+
+input::placeholder {
+  opacity: .6;
+}
+
+button {
+  height: 35px;
+  margin-left: 5px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 3px;
+  background: #cc2e43;
+  font-family: inherit;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: .5px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+  outline: none;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+table {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table th {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+table td {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+table button {
+  width: calc(100% - 10px);
+}
+
+.result p {
+  line-height: 2;
+}
